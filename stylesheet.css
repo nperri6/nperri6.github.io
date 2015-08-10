@@ -105,3 +105,28 @@ a:hover{
   	transform: translateY(14%);
 	
 }
+
+
+
+#bloghead {
+	height: 8em;
+	background-color: rgba(244, 121, 75, 0.6);
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	color: white;
+	border-radius: 15px;
+}
+
+#blogbody {
+	height: 700px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(229,83,0,0.6);
+	clear: both;
+	text-align: center;
+	color: white; 
+	border-radius: 15px;
+}
