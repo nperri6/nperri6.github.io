@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="intial-scale=1">
+		<title> Nick Perri </title>
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+
+	<body>
+		<header id="mainhead">
+		<ul>
+			<li><a href="./index.html"> Home </a></li>
+			<li><a href="#"> Portfolio </a></li>
+			<li><a href="#"> About </a></li>
+			<li><a href="#"> Connect </a></li>
+			<li><a href="./blog:index.html"> Blog</a></li>
+		</ul>
+
+
+		</header>
+
+	
+		<section id="bloghead">
+			<h1>Arrays and Hashes</h1>
+  			<h2>When to use each</h2>
+		  <h4>August 12th, 2015</h4>
+		 </section>
+
+	  <section id="blogbody">
+
+	 	<h5> Horray for Array! </h5> 
+	    <p>
+	      Arrays give us our first opportunity for storing more than 1 thing together as an object.   Arrays are great for storing multiple things that are of the same class, such as strings, fixnums, etc., although each item in an array does not have to be of the same class! 
+	    </p>
+	    <p>
+	      Here is what an array looks like in ruby:
+	    </p>
+	    <pre><code>
+	    array = []  # if you want to create an empty array
+	    array =Array.new  # another way to do the same thing
+	    array = [1,2,3,4,5]  # define an array with things in it
+	    array << 6      # push new things into your array
+	    </code></pre>
+	    <p>
+	        Another great way of storing multiple items in a single ruby object is through a hash.  You can think of a hash as the dictionary of ruby objects.  Just as a dictionary has a word and a definition, a hash contains a key and a value.  Each key is unique but the values they can contain may overlap.(think synonyms)  The great thing about hashes is that they aren't limited to holding strings or fixnums.  You can actually store arrays or other hashes in the values of a hash!  This can get kind of complex, but it adds a lot of power to what you can do with your ruby hashes! 
+ 	    </p>
+
+ 	    <p> Here is what a hash might look like in ruby:
+
+ 	    </p>
+ 	    <pre><code>
+ 	    hash = {} #empty hash
+ 	    hash = Hash.new #anther empty hash
+ 	    hash = {time: 5, day: monday} # populate a hash
+ 	    hash[day] = 23   #give a hash key a value
+ 	    </code></pre>
+
+ 	    <h5> When to use a hash vs an array </h5>
+
+ 	    <p> Hashes and arrays both hold information, but have different uses.  Whenever you want to simply store a list of objects then you should use an array.  However, if you are needing to store dictionaries of items (for instance each item has some information about it) then you would want to use a hash.  Hashes have a lot more utility for storing information about poeple.  For instance if you were making an address book you would want to use a hash. There you could set the key to the persons name and in the value you could store all their information (you could even use an array or hash with street name, city, state, phone # etc.!) </p>
+	      
+	  </section>
+	</body>
+
+	</html>
