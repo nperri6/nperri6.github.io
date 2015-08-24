@@ -130,3 +130,15 @@ a:hover{
 	color: white; 
 	border-radius: 15px;
 }
+
+#aboutbody {
+	height: 500px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(229,83,0,0.6);
+	clear: both;
+	text-align: center;
+	color: white;
+}
+
