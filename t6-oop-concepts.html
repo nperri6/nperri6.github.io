@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="intial-scale=1">
+		<title> Nick Perri </title>
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+
+	<body>
+		<header id="mainhead">
+		<ul>
+			<li><a href="./index.html"> Home </a></li>
+			<li><a href="#"> Portfolio </a></li>
+			<li><a href="./about.html"> About </a></li>
+			<li><a href="#"> Connect </a></li>
+			<li><a href="./resume.html"> Resume </a></li>
+			<li><a href="./blog:index.html"> Blog</a></li>
+		</ul>
+
+
+		</header>
+
+	
+		<section id="bloghead">
+			<h1>Object Oriented Programming</h1>
+  			<h2>Inheritance vs Composition</h2>
+		  <h4>August 31st, 2015</h4>
+		 </section>
+
+	  <section id="blogbody">
+	    <h4> Inheritance </h4>
+	    <p>
+	      Ruby has many different ways of bringing in data from one class to another.  One common way to acheive this is to use inheritance.  Just like your own family's inheritance, A class can inherit traits from another class.  You basically get a parent class and a child class. The child class has access to all of the methods of the parent class, plus whatever methods it has.   It is important to know that Ruby limits inheritance to one parent, though you can string them Kid < Parent < Grandparent etc
+	    </p>
+	    <h4> Composition </h4>
+	    <p>
+	      Composition is another way to get information from one class into another. There are two basic ways to do this. You can call an instance of one class inside another class's method.  Or you can create a module and require that module in within a class. Unlike inheritance, you can require more than 1 module in a class.
+	    </p>
+	    <h4> Which to use? </h4>
+	    <p>
+	        While it might be more intuitive to use inheritance, it is often not the best solution.  If you are going to use inheritance you need to make sure that the child is truly a more specialized instance of the parent class.  The problem is that over time your classes might grow and change, so what looked like a clear parent-child relationship turns into something completely different. If this happens it might be really hard to decouple the classes in your legacy code.  
+	    </p>
+	    <p>
+	    	It is often preferred to use a form of composition to share methods/variables.  Composition gives us more flexibility and helps to prevent us from creating false parent child relationships.  Eventually we will start working with duck typing, which is another way to think about composition. 
+	    </p>
+
+	      <!-- copy and paste as many sections as you want to add paragraphs -->
+	  </section>
+	</body>
+
+	</html>
