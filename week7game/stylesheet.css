@@ -1,0 +1,133 @@
+/* ------------------- */
+/* Game Board Styling */
+/* ------------------- */
+
+#game-board {
+	height: 600px;
+	width: 600px;
+	background-image: url("forestbackground.jpg");
+	background-color: green;
+	float: left;
+	position: relative;
+}
+
+#game-header {
+	margin: auto;
+	text-align: center;
+
+}
+.game-button {
+	width: 25%;
+	height: 40px;
+	background-color: #C2DFFF;
+
+	margin: auto;
+	border-radius: 10px;
+}
+
+.game-button a {
+
+	text-decoration: none;
+	color: white;
+}
+
+#character {
+	height: 50px;
+	width: 50px;
+	background-image: url("net.jpg");
+	background-color: #B041FF;
+	position: absolute;
+	border-radius: 100%;
+
+}
+
+#hymenoptera {
+	height: 50px;
+	width: 50px;
+	background-image: url("hymenoptera.JPG");
+	background-color: purple;
+	position: absolute;
+	border-radius: 100%;
+
+}
+#odonata {
+	height: 50px;
+	width: 50px;
+	background-image: url("odonata.jpg");
+	background-color: purple;
+	position: absolute;
+	border-radius: 100%;
+
+}
+#coleoptera {
+	height: 50px;
+	width: 50px;
+	background-image: url("coleoptera.jpeg");
+	background-color: purple;
+	position: absolute;
+	border-radius: 100%;
+
+}
+#char {
+	position: relative;
+	padding-top: 2px;
+	padding-left: 4px;
+}
+
+/* ------------------- */
+/* Instruction Styling */
+/* ------------------- */
+.title {
+	color: yellow;
+    text-shadow: -1.5px 0 #0000A0, 0 1.5px #0000A0, 1.5px 0 #0000A0, 0 -1.5px #0000A0;
+    text-align: center;
+}
+
+#instructions {
+	background-color: #659EC7;
+	height: 600px;
+	width: 300px;
+	float: left;
+	margin-right: 50px;
+	border-radius: 10px;
+
+}
+
+
+
+
+#intro {
+	text-align: center;
+	padding: 10px;
+}
+
+#explaination {
+	text-align: center;
+	padding: 10px;
+}
+
+.intro-button {
+	margin-left: 40px;
+}
+/* ------------------- */
+/* Insect Collection Code */
+/* ------------------- */
+
+#insect-collection {
+	background-color: #99C68E;
+	height: 600px;
+	width: 300px;
+	float: left;
+	margin-left: 50px;
+	border-radius: 10px;
+	text-algin: center;
+
+}
+
+#insect-collection h3 {
+	text-align: center;
+}
+
+.collection-button {
+	margin-left: 94px;
+}

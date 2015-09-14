@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="intial-scale=1">
+		<title> Insect Catchem! </title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<script type="text/javascript" src="my_solution.js"></script>
+	</head>
+	<body>
+		<div id="instructions">
+			<h1 class="title"> Directions </h1>
+			<p id="intro"> Your mission description: To catch all the insects for your insect collection. 
+You are a professional insect catcher with aspirations to catch at least 
+one of all the orders of insects in the world. </p>
+			<button onclick="directions();" class="intro-button"> Your Cause </button>
+			<button onclick="startGame();" class="intro-button"> Start Game</button>
+			<p id="explaination"> Once you have read your cause and click start game, you will use the movement keys to wander the land of DOM in search of insects. Once you find an insect you would like to add to your collection, use the Ketchum button to catch the insect! You can view the insects that you have caught in your Insect Collection on the right! </p>
+		</div>
+
+		<div id="game-board">
+			<div id="game-header"> 
+				<div class="game-button"> 
+					<button onclick="moveLeft();"> Left</button>
+					<button onclick="moveUp();"> Up</button>
+					<button onclick="moveRight();"> Right</button>
+					<button onclick="moveDown();"> Down</button>
+					<button onclick="ketchum();"> KETCHUM!</button>
+				</div> 
+			</div>
+			<div id="character"><p id="char"> Player </p> </div>
+			<div id="odonata"></div>
+			<div id="hymenoptera"></div>
+			<div id="coleoptera"></div>
+		</div>
+		<div id="insect-collection">
+			<h1 class="title"> Insect Collection </h1>
+			<p> Here is where you can learn about the insects you have caught: </p>
+
+			<p id="collection"> After you catch each insect make sure to click Update Collection! </p>
+			<h4> When you have caught 1 of each insect update your collection to win! </h4>
+			<button onclick="updateCollection();" class="collection-button"> Update Collection</button>
+		</div>
+	</body>
+</html>
