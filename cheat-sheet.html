@@ -9,15 +9,58 @@
 
   <body>
   	<div id="header">
-
+  	<h1> Javascript Cheet Sheet </h1>
+  	<h5> Examples used from the W3 References </h5>
   	</div>
   	<div id="js_objects"> 
+  	<h3> Javascript objects </h3>
+  	<p> var car = {type:"Fiat", model:500, color:"white"}; <p>
+  	<pre> <code> var person = {
+    firstName:"John",
+    lastName:"Doe",
+    age:50,
+    eyeColor:"blue"
+}; </code> </pre>
+	<h3> You can access variables with: </h3>
+	<pre><code> objectName.propertyName</code></pre>
+  	<pre><code> objectName["propertyName"]</code></pre>
+  	
 
+  	<h3> You can access methods with: </h3>
+	<pre><code> objectName.methodName()</code></pre>
+  	<pre><code> name = person.fullName();</code></pre>
+  	<pre><code> name = person.fullName;</code></pre>
   	</div>
+
 
   	<div id="js_prototypes">
+  	<h3> Javascript Prototypes </h3>
+  	<p> Creating Prototypes </p>
+  	<pre><code> function person(first, last, age, eyecolor) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eyecolor;
+}</code></pre>
+	<pre><code> var myFather = new person("John", "Doe", 50, "blue");
+var myMother = new person("Sally", "Rally", 48, "green");</code></pre>
+  	
+  	<h3> Adding a property </h3>
+  	<pre><code> myFather.nationality = "English";</code></pre>
+  	<h3> Adding a method </h3>
+  	<pre><code> myFather.name = function () {
+    return this.firstName + " " + this.lastName;
+};</code></pre>
+	<h3> Using the prototype method </h3>
+	<pre><code> function person(first, last, age, eyecolor) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eyecolor;
+}
+person.prototype.nationality = "English";</code></pre>
 
-  	</div>
+	</div>
   </body>
 
 

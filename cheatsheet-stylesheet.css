@@ -1,24 +1,35 @@
 #header {
 	clear: both;
-	height: 50px;
+	height: 100px;
 	width: 100%;
-	background-color: purple;
-
+	background-color: #FCDFFF;
+	text-align: center;
+	border-radius: 20px;
 }
 #js_objects {
-	background-color: blue;
+	background-color: #d6edf9;
 	width: 45%;
-	height: 500px;
+	height: 700px; 
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 	float: left;
+	border-radius: 20px;
+	margin-top: 15px;
+}
+#js_objects h3 {
+	text-align: center;
+}
+#js_prototypes {
+	background-color: #B5EAAA;
+	width: 45%;
+	height: 700px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	float: left;
+	border-radius: 20px;
+	margin-top: 15px;
 }
 
-#js_prototypes {
-	background-color: green;
-	width: 45%;
-	height: 500px;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-	float: left;
+#js_prototypes h3 { 
+	text-align: center;
 }
