@@ -1,0 +1,24 @@
+#header {
+	clear: both;
+	height: 50px;
+	width: 100%;
+	background-color: purple;
+
+}
+#js_objects {
+	background-color: blue;
+	width: 45%;
+	height: 500px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	float: left;
+}
+
+#js_prototypes {
+	background-color: green;
+	width: 45%;
+	height: 500px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	float: left;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="intial-scale=1">
+		<title> Nick Perri </title>
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+
+	<body>
+		<header id="mainhead">
+		<ul>
+			<li><a href="./index.html"> Home </a></li>
+			<li><a href="#"> Portfolio </a></li>
+			<li><a href="./about.html"> About </a></li>
+			<li><a href="#"> Connect </a></li>
+			<li><a href="./resume.html"> Resume </a></li>
+			<li><a href="./blog:index.html"> Blog</a></li>
+		</ul>
+
+
+		</header>
+
+	
+		<section id="bloghead">
+			<h1>SQL Optimization</h1>
+  			<h2>What is it? When do we use it?</h2>
+		  <h4>Sept 20, 2015</h4>
+		 </section>
+
+	  <section id="blogbody">
+	    <p>
+	      Whenever we are dealing with databases we are often going to be using the SQL language.  We can use basic SQL statements to look up information in those databases.  However, not all look ups are equal, and when you start dealing with extremely big databases it can be incredibly important to make sure you optimize your searches! 
+	    </p>
+	    <p>
+	      One good example of optimizing your queries in SQL is the use of the *.  When you are using SQL's SELECT query you can specify what you would like to select based on.  If you want to select everything you can use the * key.  However, when you actually look at the time and computing power necessary to use the * key, the query runs a lot slower than had you simply typed out the column names yourself.  
+	    </p>
+	    <p>
+	        Another optimization example is to use EXISTS instead of DISTINCT when you are joining two tables together.  Yet another is to use the query UNION ALL in place of UNION. 
+	        </p>
+	      <p> The list of optimizations that you can use in SQL is much longer than necessary for this blog post.  If you are interested in learning about specific implementations of SQL optimizations there are tons of websites dedicated to them.   For now it is important to know that not all queries are created equal! If you are dealing with a database of a couple hundred users, these optimizations probably won't be a deal breaker, but if you start dealing with tables that have thousands or millions of data points, you will want to make sure that your searches are optimized!
+	      <!-- copy and paste as many sections as you want to add paragraphs -->
+	  </section>
+	</body>
+
+	</html>
