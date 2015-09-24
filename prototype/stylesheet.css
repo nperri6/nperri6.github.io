@@ -49,7 +49,7 @@ nav a {
 	text-decoration: none;
 	font-family: 'Ubuntu Mono', sans-serif;
 	font-weight: 400;
-	font-size: 1.7em;
+	font-size: 5vh;
 }
 
 nav a p {
@@ -58,7 +58,7 @@ nav a p {
 #nav-home {
 	height: 17.5%;
 	width: 70%;
-	margin-top: 2.5%;
+	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
 	background-color: yellow;
@@ -76,7 +76,7 @@ nav a p {
 #nav-portfolio {
 	height: 17.5%;
 	width: 70%;
-	margin-top: 2.5%;
+	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
 	background-color: blue;
@@ -93,7 +93,7 @@ nav a p {
 #nav-about {
 	height: 17.5%;
 	width: 70%;
-	margin-top: 2.5%;
+	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
 	background-color: yellow;
@@ -110,7 +110,7 @@ nav a p {
 #nav-resume {
 	height: 17.5%;
 	width: 70%;
-	margin-top: 2.5%;
+	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
 	background-color: blue;
@@ -126,7 +126,7 @@ nav a p {
 #nav-blog {
 	height: 17.5%;
 	width: 70%;
-	margin-top: 2.5%;
+	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
 	background-color: yellow;
@@ -163,8 +163,9 @@ footer {
 }
 
 .medialink {
+	max-width: 100%;
+	max-height: 100%;
 	height: 100%;
-	position: relative;
 }
 
 /* Large Screens only transfer */ 
