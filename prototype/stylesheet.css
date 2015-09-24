@@ -1,6 +1,6 @@
 /* Default Media Mobile */
 html {
-	height: 100%;
+	height: 100;
 }
 body {
 	background: green;
@@ -9,7 +9,7 @@ body {
 
 
 header { 
-	height: 20%;
+	height: 15vh;
 	width: 100%;
 	background: orange;
 	border-top-left-radius: 5em;
@@ -28,20 +28,20 @@ header {
 
 #header-name {
 	/*float: left;*/
-	font-size: 1.5em;
+	font-size: 4vh;
 	text-align: center;
 	padding-top: 0.5em;
 	font-family: 'Ubuntu Mono', sans-serif;
 	font-weight: 700;
 }
 #firstname {
-	font-size: 1.3em;
+	font-size: 5vh;
 }
 nav {
 	text-align: center;
 	/*margin-top: 5%;*/
 	position: relative;
-	height: 60%;
+	height: 60vh;
 	clear: both;
 
 }
@@ -142,7 +142,7 @@ nav a p {
 footer {
 	width: 100%;
 	background-color: purple;
-	height: 15%;
+	height: 15vh;
 	margin-top: 2em;
 	border-radius: 1em;
 	clear: both;
@@ -153,8 +153,8 @@ footer {
 	float:left;
 	/*margin-top: 10%;*/
 	border-radius: 1em;
-	margin-left: 4%;
-	margin-right: 2%;
+	margin-left: 2vw;
+	
 	max-width: 100%;
 	max-height: 100%;
 	height: 100%;
