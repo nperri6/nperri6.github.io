@@ -1,13 +1,24 @@
+/* color scheme colors
+dark blue : 617087;
+mountain green: 788571;
+lime green: c4cb23;
+montain grey: 9c9da2;
+light tree green: a8b669;
+far mountain blue: a3b9ce; */
+
+
 /*----------------------*/
 /*----------------------*/
 /* Default Media Mobile */
 /*----------------------*/
 /*----------------------*/
+
+
 html {
 	height: 100;
 }
 body {
-	background: green;
+	background: #a8b669;
 	height: 80%;
 }
 
@@ -15,10 +26,12 @@ body {
 header { 
 	height: 15vh;
 	width: 100%;
-	background: orange;
-	border-top-left-radius: 5em;
-	border-top-right-radius: 5px;
+	background: #788571;
+	border: 0.2em solid black;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
 	position: relative;
+	/*border: 1px solid black;*/
 }
 #header-pic {
 	float: left;
@@ -31,10 +44,9 @@ header {
 
 
 #header-name {
-	/*float: left;*/
 	font-size: 4vh;
 	text-align: center;
-	padding-top: 0.5em;
+	margin-top: 0.5em;
 	font-family: 'Ubuntu Mono', sans-serif;
 	font-weight: 700;
 }
@@ -51,6 +63,7 @@ nav {
 }
 nav a {
 	text-decoration: none;
+	color: #254117;
 	font-family: 'Ubuntu Mono', sans-serif;
 	font-weight: 400;
 	font-size: 5vh;
@@ -65,7 +78,7 @@ nav a p {
 	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
-	background-color: yellow;
+	background-color: #a3b9ce;
 
 	border-radius: 5px;
 	border: 2px solid black;
@@ -83,7 +96,7 @@ nav a p {
 	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
-	background-color: blue;
+	background-color: #9c9da2;
 	border-radius: 5px;
 	border: 2px solid black;
 	position: relative;
@@ -100,7 +113,7 @@ nav a p {
 	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
-	background-color: yellow;
+	background-color: #a3b9ce;
 	border-radius: 5px;
 	border: 2px solid black;
 	position: relative;
@@ -117,7 +130,7 @@ nav a p {
 	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
-	background-color: blue;
+	background-color: #9c9da2;
 	border-radius: 5px;
 	border: 2px solid black;
 	position: relative;
@@ -133,7 +146,7 @@ nav a p {
 	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
-	background-color: yellow;
+	background-color: #a3b9ce;
 	border-radius: 5px;
 	border: 2px solid black;
 	position: relative;
@@ -145,10 +158,12 @@ nav a p {
 }
 footer {
 	width: 100%;
-	background-color: purple;
+	background-color: #617087;
 	height: 15vh;
 	margin-top: 2em;
+	border: 0.2em solid black;
 	border-radius: 1em;
+
 	clear: both;
 
 }
