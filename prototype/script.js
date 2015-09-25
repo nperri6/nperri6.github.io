@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	$(header).fadeOut("slow");
+	$('header').fadeOut("slow");
 })
