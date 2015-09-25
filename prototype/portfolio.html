@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="utf-8"> 
 		<meta name="viewport" content="width=device-width, intial-scale=1">
-		<title> Nick Perri </title>
+		<title> Portfolio </title>
 		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="port-stylesheet.css">
 		<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
@@ -12,24 +13,33 @@
 	<body>
 		<header> 
 			<img src="imgs/nickpic100px.jpg" alt="Nick Perri" id="header-pic">
-			<h3 id="header-name"> <span id="firstname"> Nick Perri</span><br> Web Developer  </h3>
+			<h3 id="header-name"> <span id="firstname"> Nick Perri</span><br> Portfolio Page  </h3>
 		</header>
 
+<!-- The nav logic is set up in the portfolio page for being a menu that can be clicked to show you your options -->
 		<nav>
-			<div id="nav-home"> <a href="./index.html"><p> Home</p> </a> </div>
-			<div id="nav-portfolio"> <a href="#"><p> Portfolio</p> </a> </div>
-			<div id="nav-about"> <a href="#"> <p>About</p> </a></div>
-			<div id="nav-resume"> <a href="#"><p> Resume</p></a></div>
-			<div id="nav-blog"> <a href="#"><p> Blog</p> </a> </div>
-			<!-- <ul>
-			<li><a href="./index.html"> Home </a></li>
-			<li><a href="#"> Portfolio </a></li>
-			<li><a href="./about.html"> About </a></li>
-			<li><a href="#"> Connect </a></li>
-			<li><a href="./resume.html"> Resume </a></li>
-			<li><a href="./blog:index.html"> Blog</a></li>
-		</ul> -->
+			<div id="nav-buttons">
+				<div id="nav-home" class="nav-button"> <a href="./index.html"><p> Home</p> </a> </div>
+				<div id="nav-portfolio" class="nav-button"> <a href="#"><p> Portfolio</p> </a> </div>
+				<div id="nav-about" class="nav-button"> <a href="#"> <p>About</p> </a></div>
+				<div id="nav-resume" class="nav-button"> <a href="#"><p> Resume</p></a></div>
+				<div id="nav-blog" class="nav-button"> <a href="#"><p> Blog</p> </a> </div>
+			</div>
+			
+				
 		</nav>
+		<div id="nav-pulldown"><p> Menu</p> </div>
+		<div id="portfolio-info"> 
+			<p id="port-description"> Check out some of the projects that I have created so far! </p>
+			<table id="port-table">
+  			<tr>
+			    <td><a href="../week7game/game.html">Insect JS game</a></td>
+			     <td>Walk around the land of DOM catching insects!</td>
+			  </tr>
+			</table>
+
+		</div>
+		
 
 		<footer>
 			<a href="https://github.com/nperri6" class="footer-pic"><img class="medialink"src="imgs/github212.jpg"  ></a></li>
