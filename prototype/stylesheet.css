@@ -78,7 +78,7 @@ nav a p {
 	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
-	background-color: #a3b9ce;
+	background-color: #9c9da2;
 
 	border-radius: 5px;
 	border: 2px solid black;
@@ -113,7 +113,7 @@ nav a p {
 	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
-	background-color: #a3b9ce;
+	background-color: #9c9da2;
 	border-radius: 5px;
 	border: 2px solid black;
 	position: relative;
@@ -146,7 +146,7 @@ nav a p {
 	margin-top: 2vh;
 	margin-left: 15%;
 	margin-right: 15%;
-	background-color: #a3b9ce;
+	background-color: #9c9da2;
 	border-radius: 5px;
 	border: 2px solid black;
 	position: relative;
@@ -158,11 +158,12 @@ nav a p {
 }
 footer {
 	width: 100%;
-	background-color: #617087;
+	background-color: #788571;
 	height: 15vh;
 	margin-top: 2em;
 	border: 0.2em solid black;
-	border-radius: 1em;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
 
 	clear: both;
 
