@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title> Portfolio </title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="port-stylesheet.css">
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<header> 
+			<img src="imgs/nickpic100px.jpg" alt="Nick Perri" id="header-pic">
+			<h3 id="header-name"> <span id="firstname"> Nick Perri</span><br> Blog Home  </h3>
+		</header>
+
+<!-- The nav logic is set up in the portfolio page for being a menu that can be clicked to show you your options -->
+		<nav>
+			<div id="nav-buttons">
+				<div id="nav-home" class="nav-button"> <a href="./index.html"><p> Home</p> </a> </div>
+				<div id="nav-portfolio" class="nav-button"> <a href="./portfolio.html"><p> Portfolio</p> </a> </div>
+				<div id="nav-about" class="nav-button"> <a href="./about.html"> <p>About</p> </a></div>
+				<div id="nav-resume" class="nav-button"> <a href="./resume.html"><p> Resume</p></a></div>
+				<div id="nav-blog" class="nav-button"> <a href="./blog-home.html"><p> Blog</p> </a> </div>
+			</div>
+			
+				
+		</nav>
+		<div id="nav-pulldown"><p> Menu</p> </div>
+		<div id="portfolio-info"> 
+			<h3> Recent Blog Entries </h3>
+				<table id="blog-table">
+				<tr>
+					<th> Blog Entry </th>
+					<th> Date </th>
+				</tr>
+	  			<tr>
+				    <td><a href="./blog/c9-questions.html"> Asking Questions </a></td>
+				     <td>Sept 25, 2015</td>
+				  </tr>
+				<tr> 
+					<td><a href="./blog/c8-conflict.html"> Dealing with Conflict </a></td>
+					<td> Sept 20, 2015</td>
+				</tr>
+				<tr>
+					<td><a href="./blog/t8-tech.html"> Optimizing SQL </a></td>
+					<td> Sept 20, 2015 </td>
+				</tr>
+				<tr>
+					<td><a href="./blog/t7-JavaScript.html"> JS and Ruby Differences </a></td>
+					<td> Sept 13, 2015</td>
+				</tr>
+				<tr>
+					<td><a href="./blog/c7-values.html"> Importance of Values </a></td>
+					<td> Sept 13, 2015</td>
+				</tr>
+				</table>
+			<h4> Want to keep reading? Check out the older blog posts below! </h4>
+
+			<div class="additional-blogs"> 
+				<div><a href="./blog/t6-oop-concepts.html">Object Oriented Concepts </a></div>
+				<div><a href="./blog/c6-stereotype-threat.html"> Stereotype Threat</a></div>
+				<div><a href="./blog/t5-ruby-classes.html"> Ruby Classes </a></div>
+				<div><a href="./blog/c5-feedback.html"> Leaving and Receiving Feedback </a></div>
+				<div><a href="./blog/t4-enumerable-methods.html"> Using Enumerable Methods </a></div>
+				<div><a href="./blog/c4-tech-issues.html"> Issues in Technology </a></div>
+				<div><a href="./blog/t3-arrays-hashes.html"> Ruby Arrays and Hashes </a></div>
+				<div><a href="./blog/c3-thinking-style.html"> Thinking Styles </a></div>
+				<div><a href="./blog/t2-css-design.html"> Designing with CSS </a></div>
+				<div><a href="./blog/t1-git-blog.html"> Using Git</a></div>
+				<div><a href="./blog/c1-chefs-kitchen.html"> In DBC's Chef's Kitchen </a></div>
+
+			</div>
+			<div id="blog-pulldown"><p> Additional Blogs</p> </div>
+			
+
+		</div>
+		
+
+		<footer>
+			<a href="https://github.com/nperri6" class="footer-pic"><img class="medialink"src="imgs/github212.jpg"  ></a></li>
+			<a href="https://www.twitter.com/nperri6" class="footer-pic"><img class="medialink" src="imgs/twitter.jpg"  ></a>
+			<a href="https://www.linkedin.com/pub/nick-perri/7b/7a0/36" class="footer-pic"><img class="medialink" src="imgs/linkedein.jpg" ></a>
+		</footer>
+</html>

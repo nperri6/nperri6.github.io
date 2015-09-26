@@ -7,3 +7,9 @@ $(document).ready(function() {
 		$("nav").slideToggle("slow");
 	})
 })
+
+$(document).ready(function() {
+	$("#blog-pulldown").click(function() {
+		$(".additional-blogs").slideToggle("slow");	
+	})
+})

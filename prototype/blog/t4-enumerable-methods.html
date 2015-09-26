@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title> Blog </title>
+		<link rel="stylesheet" href="../stylesheet.css">
+		<link rel="stylesheet" href="../port-stylesheet.css">
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="../script.js"></script>
+	</head>
+	<body>
+		<header> 
+			<img src="../imgs/nickpic100px.jpg" alt="Nick Perri" id="header-pic">
+			<h3 id="header-name"> <span id="firstname"> Nick Perri</span><br> Enumerable Methods</h3>
+		</header>
+
+<!-- The nav logic is set up in the portfolio page for being a menu that can be clicked to show you your options -->
+		<nav>
+			<div id="nav-buttons">
+				<div id="nav-home" class="nav-button"> <a href="../index.html"><p> Home</p> </a> </div>
+				<div id="nav-portfolio" class="nav-button"> <a href="../portfolio.html"><p> Portfolio</p> </a> </div>
+				<div id="nav-about" class="nav-button"> <a href="../about.html"> <p>About</p> </a></div>
+				<div id="nav-resume" class="nav-button"> <a href="../resume.html"><p> Resume</p></a></div>
+				<div id="nav-blog" class="nav-button"> <a href="../blog-home.html"><p> Blog</p> </a> </div>
+			</div>
+		</nav>
+		<div id="nav-pulldown"><p> Menu</p> </div>
+<!-- Here is where the blog post goes -->
+		<div id="blog-info">
+			<h5> Aug 18th, 2015 </h5> 
+			<p>
+	      The group_by enumerator function has tons of functionability in Ruby. The ruby docs describes it as an enumerator that takes a collection and some condition about that collection, and returns a hash that gives keys of each possible outcome, and a value containing an array with each item in the collection that resulted in the key.  While this might seem like a complex explaination, it actually rather straight forward and powerful. Lets look at an example.
+	    </p>
+	    <p>
+	      Lets say you have you wanted to look at the states of the United States and determine which ones had had over 4 million poeple living in them. You could do something like this:
+	    </p>
+	    <pre><code>
+	     	([hash of states with population]).group_by {|state, population| population > 4000000}
+	    </code></pre>
+	    <p>
+	        This type of problem should give a hash with two keys, true and false, with the values being an array containing the hashes that were the states with over or under 4million poeple.  
+	    </p>
+
+		</div>
+		<footer>
+			<a href="https://github.com/nperri6" class="footer-pic"><img class="medialink"src="../imgs/github212.jpg"  ></a></li>
+			<a href="https://www.twitter.com/nperri6" class="footer-pic"><img class="medialink" src="../imgs/twitter.jpg"  ></a>
+			<a href="https://www.linkedin.com/pub/nick-perri/7b/7a0/36" class="footer-pic"><img class="medialink" src="../imgs/linkedein.jpg" ></a>
+		</footer>
+</html>

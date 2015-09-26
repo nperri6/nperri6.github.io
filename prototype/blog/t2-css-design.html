@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title> Blog </title>
+		<link rel="stylesheet" href="../stylesheet.css">
+		<link rel="stylesheet" href="../port-stylesheet.css">
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="../script.js"></script>
+	</head>
+	<body>
+		<header> 
+			<img src="../imgs/nickpic100px.jpg" alt="Nick Perri" id="header-pic">
+			<h3 id="header-name"> <span id="firstname"> Nick Perri</span><br> CSS Design</h3>
+		</header>
+
+<!-- The nav logic is set up in the portfolio page for being a menu that can be clicked to show you your options -->
+		<nav>
+			<div id="nav-buttons">
+				<div id="nav-home" class="nav-button"> <a href="../index.html"><p> Home</p> </a> </div>
+				<div id="nav-portfolio" class="nav-button"> <a href="../portfolio.html"><p> Portfolio</p> </a> </div>
+				<div id="nav-about" class="nav-button"> <a href="../about.html"> <p>About</p> </a></div>
+				<div id="nav-resume" class="nav-button"> <a href="../resume.html"><p> Resume</p></a></div>
+				<div id="nav-blog" class="nav-button"> <a href="../blog-home.html"><p> Blog</p> </a> </div>
+			</div>
+		</nav>
+		<div id="nav-pulldown"><p> Menu</p> </div>
+<!-- Here is where the blog post goes -->
+		<div id="blog-info">
+			<h5> Aug 10th, 2015 </h5> 
+			<p>
+	      This week I had the chance to start building my website! While I have worked to build websites before using content management systems, this was one of my first attempts from scratch.  I learned a lot about CSS this week, mostly from trial, error, and a whole lot of googling.  Here is some of the stuff that I have learned!
+	    </p>
+	    <h5> Margins, Borders, and Padding</h5>
+	    <p>
+	      Marigns, borders, and padding are all unique, and all quite important for positioning objects.  Margins describe the space around the object itself in relation to the objects around it.  Padding is slightly different. It still describes space around an object, but this space is considered part of that object.  In a way it expans the area of the object (including the clickable area for a link).  Border describes the space inbetween padding and margin where you can create borders if you would like.  
+	    </p>
+	    <h5> Classes vs. Ids! </h5>
+	    <p>
+	     One of the extremely helpful features that HTML/CSS offers is classes/ids.  Whenever you have more than one element that you want to style similarly with CSS, you can apply the class to its tag.  For example, class="mainheader".  Then, you style that in css using the .mainheader {}.    Ids are very similar but generally reserved for one specific div.  If you have specific styling you only need to apply to one section of your website, IDs are the way to go.  Ex. id="specificsidebar" CSS: #specificsidebar {}
+	        
+	    </p>
+	    <h5> Relative, Absolute, and Fixed Positioning </h5>
+	    <p> Positioning was one of the tougher things for me to wrap my head around this week.  While it isn't too hard to theoretically understand what things should do, it doesn't always work as expected (but hopefully as my CSS knowledge grows they will).  Fixed positioning means that a section will not move.  It will be anchored to the screen in its position.  Absolute positioning means that it will have a specific position on the screen, though will not be fixed ( if you scroll you should be able to scroll past it).  Relative positioning means that it will be positioned relative to its parent element and what else is on the page.  If you position a relative element inside an absolute element, it will position itself inside that absolute element relative to the borders of that element.  </p>
+	    
+	    <h5> Display: Inline vs Inline Blocks </h5>
+
+	    <p> Inline basically means that elements will line themselves up on a line.  However, if those elements do not have any inherit traits that tell them to occupy space, the will end up lining up on top of each other.  In these cases you would need to use inline blocks, which tells those elements to occupy blocks of space. </p>
+		</div>
+		<footer>
+			<a href="https://github.com/nperri6" class="footer-pic"><img class="medialink"src="../imgs/github212.jpg"  ></a></li>
+			<a href="https://www.twitter.com/nperri6" class="footer-pic"><img class="medialink" src="../imgs/twitter.jpg"  ></a>
+			<a href="https://www.linkedin.com/pub/nick-perri/7b/7a0/36" class="footer-pic"><img class="medialink" src="../imgs/linkedein.jpg" ></a>
+		</footer>
+</html>

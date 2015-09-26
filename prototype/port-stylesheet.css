@@ -1,18 +1,28 @@
+
+/*----------------------*/
+/*----------------------*/
+/* Moble Naviagition -- */
+/*----------------------*/
+/*----------------------*/
+
+
+
 nav {
 	display:none;
+	height: 37vh;
 }
 
 #nav-pulldown {
-	background-color: white;
 	margin-top: 1vh;
-	height: 20%;
+	height: 5vh;
 	width: 70%;
 	margin-left: 15%;
 	margin-right: 15%;
-	background-color: #9c9da2;
+	background-color: #808080;
 	border-radius: 5px;
 	border: 2px solid black;
 	position: relative;
+
 
 }
 
@@ -33,6 +43,49 @@ nav {
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+#nav-home {
+	height: 5vh;
+}
+
+#nav-home p {
+	margin-top: 0;
+}
+#nav-portfolio {
+	height: 5vh;
+}
+
+#nav-portfolio p {
+	margin-top: 0;
+}
+
+#nav-about {
+	height: 5vh;
+}
+
+#nav-about p {
+	margin-top: 0;
+}
+
+#nav-resume {
+	height: 5vh;
+}
+
+#nav-resume p {
+	margin-top: 0;
+}
+#nav-blog {
+	height: 5vh;
+	
+}
+#nav-blog p {
+	margin-top: 0;
+}
+
+/*----------------------*/
+/*----------------------*/
+/* Portfolio Page ----- */
+/*----------------------*/
+/*----------------------*/
 
 #portfolio-info {
 	
@@ -56,12 +109,81 @@ nav {
 	text-shadow: -0.8px 0 black, 0 0.8px black, 0.8px 0 black, 0 -0.8px black;
 }
 
-table, th, td {
+#port-table table, #port-table th, #port-table td {
 	border: 2px solid black;
 }
-#nav-home {
-	height: 10%;
+
+
+
+/*----------------------*/
+/*----------------------*/
+/* Blog Home Styling -- */
+/*----------------------*/
+/*----------------------*/
+
+#blog-table {
+	width: 100%;
 }
-.nav-button {
-	height: 10%;
+
+#blog-table a {
+	text-decoration: none;
+	color: #254117;
 }
+
+
+.additional-blogs {
+	display: none;
+
+}
+
+.additional-blogs a {
+	text-decoration: none;
+	color: #254117;
+	/*text-shadow: -0.8px 0 black, 0 0.8px black, 0.8px 0 black, 0 -0.8px black;*/
+}
+
+#blog-pulldown {
+	background: green;
+	height: 3vh;
+	width: 45%;
+	margin-top: 5%;
+	margin-left: 27.5%;
+	margin-right: 27.5%;
+	border-radius: 5px;
+	background-color: #808080;
+	border: 1px solid black;
+	/*outline: 1px solid black;*/
+}
+#blog-pulldown p {
+	margin-top: 0;
+}
+/*#blog-pulldown {
+	margin-top: 1vh;
+	height: 40%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #808080;
+	border-radius: 5px;
+	border: 2px solid black;
+	position: relative;
+
+
+}*/
+/*----------------------*/
+/*----------------------*/
+/* Blog Template Styling*/
+/*----------------------*/
+/*----------------------*/
+
+#blog-info {
+	text-align: center;
+	padding-top: 0vh;
+	margin-top: 0;
+	margin-bottom: 30%;
+	font-family: 'Ubuntu Mono', sans-serif;
+	font-weight: 400;
+	font-size: 3vh;
+	position: relative;
+}
+

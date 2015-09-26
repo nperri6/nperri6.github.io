@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title> Blog </title>
+		<link rel="stylesheet" href="../stylesheet.css">
+		<link rel="stylesheet" href="../port-stylesheet.css">
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="../script.js"></script>
+	</head>
+	<body>
+		<header> 
+			<img src="../imgs/nickpic100px.jpg" alt="Nick Perri" id="header-pic">
+			<h3 id="header-name"> <span id="firstname"> Nick Perri</span><br> JS vs Ruby </h3>
+		</header>
+
+<!-- The nav logic is set up in the portfolio page for being a menu that can be clicked to show you your options -->
+		<nav>
+			<div id="nav-buttons">
+				<div id="nav-home" class="nav-button"> <a href="../index.html"><p> Home</p> </a> </div>
+				<div id="nav-portfolio" class="nav-button"> <a href="../portfolio.html"><p> Portfolio</p> </a> </div>
+				<div id="nav-about" class="nav-button"> <a href="../about.html"> <p>About</p> </a></div>
+				<div id="nav-resume" class="nav-button"> <a href="../resume.html"><p> Resume</p></a></div>
+				<div id="nav-blog" class="nav-button"> <a href="../blog-home.html"><p> Blog</p> </a> </div>
+			</div>
+		</nav>
+		<div id="nav-pulldown"><p> Menu</p> </div>
+<!-- Here is where the blog post goes -->
+		<div id="blog-info">
+			<h5> Sept 13, 2015 </h5> 
+			 <p>
+	     In the programming world there is a lot of discussion about which language is the "best" to use.  In reality there is no one language that is good for every task. If there was, wouldn't we stop creating new languages?   Both Javascript and Ruby are incredibly useful, but for different reasons.  They have some overlapping characteristics, but differ in style and functionality.  
+	    </p>
+	    <p>
+	      One big difference between the two is the syntax that you need to use to write in either language.  Ruby was created with the developer in mind. Due to this, it is fairly easy to learn the syntax.  Ruby is very forgiving with its requirements on punctuation.  With ruby you can use () with functions, or you could choose not to.  You can space things out, or you can choose not to.  The best practices for ruby actually use as little punctuation as possible. This is a pretty typical function definition in Ruby 
+	    </p>
+	    <pre><code> 
+	    def hello
+	    	puts "Hello"
+	    end
+	    </code></pre>
+	    <p>
+	       Notice how little punctuation there is?  Meaning there is none! Now lets take a look at what you would have to write with JS to do the same thing 
+	    </p>
+	    <pre><code>
+	    var hello = function(){
+	     console.log("Hello");
+	     }
+	     </code></pre>
+	     <p> As you can see Javascript requires a lot more syntax to write the code out. This isn't necessarily a bad thing, but it does take some getting used to! (especially if you started with ruby) There are tons of other differences between the two languages, but I feel they c an all be boiled down to the idea that Ruby was made for developers, while JS was made to modify web pages.  The JS language has grown and evolved over time to incorporate more user friendly services, but its fundamentally created to serve a purpose of modifying HTML. Ruby was created with the developer in mind so it tends to be easier on the eyes!
+	     </p>
+		</div>
+		<footer>
+			<a href="https://github.com/nperri6" class="footer-pic"><img class="medialink"src="../imgs/github212.jpg"  ></a></li>
+			<a href="https://www.twitter.com/nperri6" class="footer-pic"><img class="medialink" src="../imgs/twitter.jpg"  ></a>
+			<a href="https://www.linkedin.com/pub/nick-perri/7b/7a0/36" class="footer-pic"><img class="medialink" src="../imgs/linkedein.jpg" ></a>
+		</footer>
+</html>

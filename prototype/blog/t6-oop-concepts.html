@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title> Blog </title>
+		<link rel="stylesheet" href="../stylesheet.css">
+		<link rel="stylesheet" href="../port-stylesheet.css">
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="../script.js"></script>
+	</head>
+	<body>
+		<header> 
+			<img src="../imgs/nickpic100px.jpg" alt="Nick Perri" id="header-pic">
+			<h3 id="header-name"> <span id="firstname"> Nick Perri</span><br> Object Oriented Programming </h3>
+		</header>
+
+<!-- The nav logic is set up in the portfolio page for being a menu that can be clicked to show you your options -->
+		<nav>
+			<div id="nav-buttons">
+				<div id="nav-home" class="nav-button"> <a href="../index.html"><p> Home</p> </a> </div>
+				<div id="nav-portfolio" class="nav-button"> <a href="../portfolio.html"><p> Portfolio</p> </a> </div>
+				<div id="nav-about" class="nav-button"> <a href="../about.html"> <p>About</p> </a></div>
+				<div id="nav-resume" class="nav-button"> <a href="../resume.html"><p> Resume</p></a></div>
+				<div id="nav-blog" class="nav-button"> <a href="../blog-home.html"><p> Blog</p> </a> </div>
+			</div>
+		</nav>
+		<div id="nav-pulldown"><p> Menu</p> </div>
+<!-- Here is where the blog post goes -->
+		<div id="blog-info">
+			<h5> Aug 31st, 2015 </h5> 
+			 <h4> Inheritance </h4>
+	    <p>
+	      Ruby has many different ways of bringing in data from one class to another.  One common way to acheive this is to use inheritance.  Just like your own family's inheritance, A class can inherit traits from another class.  You basically get a parent class and a child class. The child class has access to all of the methods of the parent class, plus whatever methods it has.   It is important to know that Ruby limits inheritance to one parent, though you can string them Kid < Parent < Grandparent etc
+	    </p>
+	    <h4> Composition </h4>
+	    <p>
+	      Composition is another way to get information from one class into another. There are two basic ways to do this. You can call an instance of one class inside another class's method.  Or you can create a module and require that module in within a class. Unlike inheritance, you can require more than 1 module in a class.
+	    </p>
+	    <h4> Which to use? </h4>
+	    <p>
+	        While it might be more intuitive to use inheritance, it is often not the best solution.  If you are going to use inheritance you need to make sure that the child is truly a more specialized instance of the parent class.  The problem is that over time your classes might grow and change, so what looked like a clear parent-child relationship turns into something completely different. If this happens it might be really hard to decouple the classes in your legacy code.  
+	    </p>
+	    <p>
+	    	It is often preferred to use a form of composition to share methods/variables.  Composition gives us more flexibility and helps to prevent us from creating false parent child relationships.  Eventually we will start working with duck typing, which is another way to think about composition. 
+	    </p>
+		</div>
+		<footer>
+			<a href="https://github.com/nperri6" class="footer-pic"><img class="medialink"src="../imgs/github212.jpg"  ></a></li>
+			<a href="https://www.twitter.com/nperri6" class="footer-pic"><img class="medialink" src="../imgs/twitter.jpg"  ></a>
+			<a href="https://www.linkedin.com/pub/nick-perri/7b/7a0/36" class="footer-pic"><img class="medialink" src="../imgs/linkedein.jpg" ></a>
+		</footer>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title> Blog </title>
+		<link rel="stylesheet" href="../stylesheet.css">
+		<link rel="stylesheet" href="../port-stylesheet.css">
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="../script.js"></script>
+	</head>
+	<body>
+		<header> 
+			<img src="../imgs/nickpic100px.jpg" alt="Nick Perri" id="header-pic">
+			<h3 id="header-name"> <span id="firstname"> Nick Perri</span><br> Ruby Arrays</h3>
+		</header>
+
+<!-- The nav logic is set up in the portfolio page for being a menu that can be clicked to show you your options -->
+		<nav>
+			<div id="nav-buttons">
+				<div id="nav-home" class="nav-button"> <a href="../index.html"><p> Home</p> </a> </div>
+				<div id="nav-portfolio" class="nav-button"> <a href="../portfolio.html"><p> Portfolio</p> </a> </div>
+				<div id="nav-about" class="nav-button"> <a href="../about.html"> <p>About</p> </a></div>
+				<div id="nav-resume" class="nav-button"> <a href="../resume.html"><p> Resume</p></a></div>
+				<div id="nav-blog" class="nav-button"> <a href="../blog-home.html"><p> Blog</p> </a> </div>
+			</div>
+		</nav>
+		<div id="nav-pulldown"><p> Menu</p> </div>
+<!-- Here is where the blog post goes -->
+		<div id="blog-info">
+			<h5> Aug 12th, 2015 </h5> 
+			<h5> Horray for Array! </h5> 
+	    <p>
+	      Arrays give us our first opportunity for storing more than 1 thing together as an object.   Arrays are great for storing multiple things that are of the same class, such as strings, fixnums, etc., although each item in an array does not have to be of the same class! 
+	    </p>
+	    <p>
+	      Here is what an array looks like in ruby:
+	    </p>
+	    <pre><code>
+	    array = []  # if you want to create an empty array
+	    array =Array.new  # another way to do the same thing
+	    array = [1,2,3,4,5]  # define an array with things in it
+	    array << 6      # push new things into your array
+	    </code></pre>
+	    <p>
+	        Another great way of storing multiple items in a single ruby object is through a hash.  You can think of a hash as the dictionary of ruby objects.  Just as a dictionary has a word and a definition, a hash contains a key and a value.  Each key is unique but the values they can contain may overlap.(think synonyms)  The great thing about hashes is that they aren't limited to holding strings or fixnums.  You can actually store arrays or other hashes in the values of a hash!  This can get kind of complex, but it adds a lot of power to what you can do with your ruby hashes! 
+ 	    </p>
+
+ 	    <p> Here is what a hash might look like in ruby:
+
+ 	    </p>
+ 	    <pre><code>
+ 	    hash = {} #empty hash
+ 	    hash = Hash.new #anther empty hash
+ 	    hash = {time: 5, day: monday} # populate a hash
+ 	    hash[day] = 23   #give a hash key a value
+ 	    </code></pre>
+
+ 	    <h5> When to use a hash vs an array </h5>
+
+ 	    <p> Hashes and arrays both hold information, but have different uses.  Whenever you want to simply store a list of objects then you should use an array.  However, if you are needing to store dictionaries of items (for instance each item has some information about it) then you would want to use a hash.  Hashes have a lot more utility for storing information about poeple.  For instance if you were making an address book you would want to use a hash. There you could set the key to the persons name and in the value you could store all their information (you could even use an array or hash with street name, city, state, phone # etc.!) </p>
+
+		</div>
+		<footer>
+			<a href="https://github.com/nperri6" class="footer-pic"><img class="medialink"src="../imgs/github212.jpg"  ></a></li>
+			<a href="https://www.twitter.com/nperri6" class="footer-pic"><img class="medialink" src="../imgs/twitter.jpg"  ></a>
+			<a href="https://www.linkedin.com/pub/nick-perri/7b/7a0/36" class="footer-pic"><img class="medialink" src="../imgs/linkedein.jpg" ></a>
+		</footer>
+</html>
